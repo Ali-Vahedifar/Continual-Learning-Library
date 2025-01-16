@@ -20,11 +20,11 @@ We evaluated 13 state-of-the-art CL methods, including EWC, SI, LwF, BiC, PNN, D
 For comparison, we included Joint training, which trains all tasks together as an upper bound, and Finetuning, which sequentially trains on new tasks without addressing CF, as a lower bound. 
 
 
-##**Update Roadmap:**
+## **Update Roadmap:**
 The codebase is actively being developed. We are adding new models to the repository to broaden its utility, We are creating an openly accessible dashboard to display the performance of all models in their respective configurations (to ensure reproducibility) and in general settings (for comparisons). This feature may take some time due to computational resource constraints.
 
 
-##**Citing the library:**
+## **Citing the library:**
 
 @misc{vahedifar_2025_14631802,
   author       = {Vahedifar, Mohammad Ali and
