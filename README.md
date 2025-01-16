@@ -1,4 +1,4 @@
-element { 
+@settings {
   font-size: 75;
 **Towards Lifelong Deep Learning: A Review of Continual Learning and Unlearning Methods**
 }
