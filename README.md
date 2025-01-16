@@ -1,5 +1,5 @@
 
-#**Towards Lifelong Deep Learning: A Review of Continual Learning and Unlearning Methods**#
+<h1>**Towards Lifelong Deep Learning: A Review of Continual Learning and Unlearning Methods**
 
 Neural networks (NNs) often face a challenge called catastrophic forgetting, where performance on previously learned tasks degrades when new tasks are introduced without revisiting prior data. Continual learning (CL) addresses this issue by enabling models to learn sequentially from a stream of tasks while retaining prior knowledge. CL aims to balance the stability-plasticity dilemma, where stability ensures knowledge retention, and plasticity allows the integration of new information.
 
