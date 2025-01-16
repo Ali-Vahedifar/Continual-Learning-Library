@@ -27,7 +27,7 @@ The codebase is actively being developed. We are adding new models to the reposi
 ## **Citing the library:**
 
 @misc{vahedifar_2025_14631802,
-  author       = {Vahedifar, Mohammad Ali and Zhang, Qi and Iosifidis, Alexandros},
+  author       = {Vahedifar, Mohammad Ali and Zhang, Qi and Iosifidis, Alexandros},\\
   
   title        = {Towards Lifelong Deep Learning: A Review of Continual Learning and Unlearning Methods},
   
