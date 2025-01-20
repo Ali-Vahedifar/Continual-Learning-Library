@@ -23,7 +23,8 @@ For comparison, we included Joint training, which trains all tasks together as a
 ## **Update Roadmap:**
 The codebase is actively being developed. We are adding new models to the repository to broaden its utility, We are creating an openly accessible dashboard to display the performance of all models in their respective configurations (to ensure reproducibility) and in general settings (for comparisons). This feature may take some time due to computational resource constraints.
 
-Current Models: Gradient Episodic Memory (GEM)
+Current Models: 
+1) Gradient Episodic Memory (GEM)
 
 
 
