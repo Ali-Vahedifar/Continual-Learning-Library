@@ -25,6 +25,7 @@ The codebase is actively being developed. We are adding new models to the reposi
 
 Current Models: 
 1) Gradient Episodic Memory (GEM)
+2) iCaRL: Incremental Classifier and Representation Learning
 
 
 
