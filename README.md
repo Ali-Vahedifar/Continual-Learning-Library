@@ -33,6 +33,7 @@ Current Models:
 7) Progressive Neural Networks (PNN)
 8) Elastic Weight Consolidation (EWC)
 9) Co-Transport for Class-Incremental Learning (Coil)
+10) Pooled Outputs Distillation for Small-Tasks Incremental Learning (PODNet)
 
 
 
