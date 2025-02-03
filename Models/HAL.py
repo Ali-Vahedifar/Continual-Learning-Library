@@ -12,7 +12,6 @@ from utils.ring_buffer import RingBuffer as Buffer
 
 
 class HAL(ContinualModel):
-    """Hindsight Anchor Learning."""
     NAME = 'hal'
     COMPATIBILITY = ['class-il', 'domain-il', 'task-il']
 
