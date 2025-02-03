@@ -25,7 +25,14 @@ The codebase is actively being developed. We are adding new models to the reposi
 
 Current Models: 
 1) Gradient Episodic Memory (GEM)
-2) iCaRL: Incremental Classifier and Representation Learning
+2) Incremental Classifier and Representation Learning (iCaRL)
+3) Bias Correction (BiC)
+4) Hindsight Anchor Learning (HAL)
+5) Learning without Forgetting (LwF)
+6) Synaptic Intelligence (SI)
+7) Progressive Neural Networks (PNN)
+8) Elastic Weight Consolidation (EWC)
+9) Co-Transport for Class-Incremental Learning (Coil)
 
 
 
