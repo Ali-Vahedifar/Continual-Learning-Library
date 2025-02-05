@@ -19,8 +19,8 @@ def compute_metrics(acc_matrix, b, optimal_result):
     I = optimal_result - acc_matrix[-1, -1]
     
     # Stability-Plasticity Ratio (SP)
-    numerator = np.sum(np.abs(np.diag(acc_matrix)[1:] - np.diag(acc_matrix, k=-1)[1:]))
-    denominator = np.sum(np.abs(np.diag(acc_matrix)[1:] - acc_matrix[1:, 0]))
+    numerator = np.sum([np.abs(acc_matrix[i, i] - acc_matrix[i, i - 1]) for i in range(1, T)])
+    denominator = np.sum([np.abs(acc_matrix[i, i] - acc_matrix[i, 0]) for i in range(1, T)])
     SP = numerator / denominator if denominator != 0 else 0
     
     # Task Retention Ratio (TR)
