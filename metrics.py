@@ -1,4 +1,5 @@
 import numpy as np
+
 def compute_metrics(acc_matrix, b, optimal_result):
     T = acc_matrix.shape[0]  # Number of tasks
     
@@ -18,13 +19,12 @@ def compute_metrics(acc_matrix, b, optimal_result):
     # Intransigence Measure (I)
     I = optimal_result - acc_matrix[-1, -1]
     
-    # Stability-Plasticity Ratio (SP)
-    numerator = np.sum([np.abs(acc_matrix[i, i] - acc_matrix[i, i - 1]) for i in range(1, T)])
-    denominator = np.sum([np.abs(acc_matrix[i, i] - acc_matrix[i, 0]) for i in range(1, T)])
-    SP = numerator / denominator if denominator != 0 else 0
-    
-    # Task Retention Ratio (TR)
-    TR = np.sum(acc_matrix[:, 0]) / np.sum(acc_matrix[0, :]) if np.sum(acc_matrix[0, :]) != 0 else 0
+    # Plasticity-Stability-Ratio 
+    numerator = sum(acc_matrix[k, k] -acc_matrix[k - 1, k] for k in range(1, T))
+    denominator = sum(abs(acc_matrix[ - 1, k] - acc_matrix[k, k]) for k in range(T - 1))
+
+    PS= numerator / denominator if denominator != 0 else 0
+
     
     metrics = {
         "ACC": ACC,
@@ -32,8 +32,8 @@ def compute_metrics(acc_matrix, b, optimal_result):
         "FWT": FWT,
         "AF": AF,
         "I": I,
-        "SP": SP,
-        "TR": TR
+        "PS": PS,
+       
     }
     
     return metrics
