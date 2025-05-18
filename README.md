@@ -89,3 +89,5 @@ numpy
       primaryClass={cs.LG},\
       url={https://arxiv.org/abs/2503.04638}, 
 }
+## License
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
