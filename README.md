@@ -24,18 +24,18 @@ For comparison, we included Joint training, which trains all tasks together as a
 The codebase is actively being developed. We are adding new models to the repository to broaden its utility, We are creating an openly accessible dashboard to display the performance of all models in their respective configurations (to ensure reproducibility) and in general settings (for comparisons). This feature may take some time due to computational resource constraints.
 
 Current Models: 
-1) Gradient Episodic Memory (GEM)
-2) Incremental Classifier and Representation Learning (iCaRL)
-3) Bias Correction (BiC)
-4) Hindsight Anchor Learning (HAL)
-5) Learning without Forgetting (LwF)
-6) Synaptic Intelligence (SI)
-7) Progressive Neural Networks (PNN)
-8) Elastic Weight Consolidation (EWC)
-9) Co-Transport for Class-Incremental Learning (Coil)
-10) Pooled Outputs Distillation for Small-Tasks Incremental Learning (PODNet)
-
-
+1) **No Forgetting Learning (Ours)**
+2) Gradient Episodic Memory (GEM)
+3) Incremental Classifier and Representation Learning (iCaRL)
+4) Bias Correction (BiC)
+5) Hindsight Anchor Learning (HAL)
+6) Learning without Forgetting (LwF)
+7) Synaptic Intelligence (SI)
+8) Progressive Neural Networks (PNN)
+9) Elastic Weight Consolidation (EWC)
+10) Co-Transport for Class-Incremental Learning (Coil)
+11) Pooled Outputs Distillation for Small-Tasks Incremental Learning (PODNet)
+12) Memory-Efficient expandable Model (MEMO)
 
 ## **Citing the library:**
 
@@ -47,4 +47,14 @@ Current Models:
   publisher    = {Zenodo},\
   doi          = {10.5281/zenodo.14631802},\
   url          = {https://doi.org/10.5281/zenodo.14631802},\
+}
+
+@misc{vahedifar2025forgettinglearningmemoryfreecontinual,
+      title={No Forgetting Learning: Memory-free Continual Learning}, 
+      author={Mohammad Ali Vahedifar and Qi Zhang},
+      year={2025},
+      eprint={2503.04638},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2503.04638}, 
 }
