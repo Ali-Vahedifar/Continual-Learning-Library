@@ -49,7 +49,7 @@ This figure illustrates the **stepwise freezing** sequential training pipeline o
 The codebase is actively being developed. We are adding new models to the repository to broaden its utility, We are creating an openly accessible dashboard to display the performance of all models in their respective configurations (to ensure reproducibility) and in general settings (for comparisons). This feature may take some time due to computational resource constraints.
 
 Current Models: 
-1) **No Forgetting Learning (Ours)**
+1) **No Forgetting Learning (NFL) (Our method)**
 2) Gradient Episodic Memory (GEM)
 3) Incremental Classifier and Representation Learning (iCaRL)
 4) Bias Correction (BiC)
